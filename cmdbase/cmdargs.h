@@ -24,7 +24,9 @@ typedef enum CMDBS_Arg_Mode
  * @returns bool
  */
 
-static inline _Bool CMDBS_GetArg(CMDBS_Arguments_t args, int argc_pos, CMDBS_Arg_Mode mode)
+static inline _Bool     CMDBS_GetArg        (CMDBS_Arguments_t args,
+                                            int argc_pos,
+                                            CMDBS_Arg_Mode mode)
 {
   if (args.argc < argc_pos)
     {
