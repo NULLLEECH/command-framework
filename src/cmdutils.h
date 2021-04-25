@@ -3,7 +3,7 @@
 #ifndef CMDUTILS_H
 #define CMDUTILS_H
 
-// global to handle prefix
+// global to handle strange prefix (if you wish)
 static char g_cmdbs_expected_prefix_char = '-';
 
 /* @struct CMDBS_Arguments_t

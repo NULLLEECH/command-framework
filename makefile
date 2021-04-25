@@ -3,7 +3,7 @@
 WARN = -Wall -Wextra -Wshadow
 SRC  = src
 
-CPPFLAGS = -I. # access via 
+CPPFLAGS = -I.
 CFLAGS   = $(WARN) $(CPPFLAGS) -Og -std=c99 -g
 
 # this line should be uncommented if you want a debug build

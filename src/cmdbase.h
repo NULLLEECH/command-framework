@@ -1,6 +1,5 @@
 // will propergate interactions with input, acting as a means to handle arg(c/v)
 // this file; cmdbase.h holds includes for all needed headers
-
 #ifndef CMDBASE_H
 #define CMDBASE_H
 
@@ -16,7 +15,8 @@
 // handles arguments, @see cmdargs.h doc for more info
 #include "cmdargs.h"
 
-/*
+/* General info
+ *
  * standard call format, enum and g_var format
  *
  * CMDBS_ThisFunction
