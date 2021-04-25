@@ -4,7 +4,7 @@
 #define CMDUTILS_H
 
 // global to handle prefix
-static inline char g_cmdbs_expected_prefix_char = '-';
+static char g_cmdbs_expected_prefix_char = '-';
 
 /* @struct CMDBS_Arguments_t
  *

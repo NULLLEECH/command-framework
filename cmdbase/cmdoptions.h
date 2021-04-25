@@ -37,7 +37,7 @@ static inline char      CMDBS_GetShortOption    (CMDBS_Arguments_t args,
     }
   else
     {
-      if (strlen(args.argv[argc_pos] >= sub_pos))
+      if ((int)strlen(args.argv[argc_pos]) >= sub_pos)
         {
           if (args.argv[argc_pos][0] == g_cmdbs_expected_prefix_char &&
              args.argv[argc_pos][sub_pos] != g_cmdbs_expected_prefix_char)
