@@ -21,7 +21,7 @@
  *
  * CMDBS_ThisFunction
  *
- * g_cmdbs_var_name // @note there are no g_vars
+ * g_cmdbs_var_name
  *
  * CMDBS_ENUMTYPE_NAMEINTYPE
  *
